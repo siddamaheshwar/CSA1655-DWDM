@@ -1,0 +1,5 @@
+data=read.csv("travel-times (1).csv")
+View(data)
+hist(data$AvgSpeed)
+mean(data$MaxSpeed)
+scatter.smooth(data$AvgSpeed.data$MaxSpeed)
